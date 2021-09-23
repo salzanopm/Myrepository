@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'muli';
+  src: url(Muli-Regular.ttf);
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: rgba(20, 20, 20, .65);
+  margin-top: 1%;
+  margin-left: 18%;
+  margin-right: 18%;
+  border-radius: 2%;
+  height: 570px;
+  position: relative;
+}
+
+header {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.title {
+  margin:0;
+  margin-top: 4px;
+  margin-bottom: 3px;
+  color: #32d02f;
+  font-family: muli;
+  font-size: 21px;
+}
+
+nav {
+  background-color: #32d02f;
+  padding: 5px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+input {
+  font-size: 8px;
+  text-align: center;
+}
+
+
+main {
+  text-align: left;
+  font-family: Muli;
+  display: inline-block;
+  position: absolute;
+  margin-left: 10%;
+
+  width: 100%;
+}
+
+h3 {
+
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  font-size: 15px;
+  display: inline-block;
+}
+
+main > span {
+  color: white;
+  font-size: 12px;
+
+}
+
+.barra {
+margin: 0;
+}
+
+.arancione {
+  background-color: orange;
+  margin-right: 73%;
+  border-radius: 5px;
+  border-color: orange;
+}
+
+.verde {
+  background-color:rgb(28, 184, 59);
+  margin-right: 51%;
+  border-radius: 5px;
+  border-color: rgb(28, 184, 59);
+}
+
+.rossa {
+  background-color: rgb(184, 73, 73);
+  margin-right: 84%;
+  border-radius: 5px;
+  border-color: rgb(184, 73, 73);
+}
